@@ -1,0 +1,26 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/richmantan/Desktop/CProject/Project2Resources/battleships'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _PrintArray, symObjAddr: 0x0, symBinAddr: 0x100001940, symSize: 0x90 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _GetMoveBot1, symObjAddr: 0x1670, symBinAddr: 0x100002FB0, symSize: 0x5A0 }
+  - { offsetInCU: 0x70, offset: 0x70, size: 0x8, addend: 0x0, symName: _GetMoveBot1.last_hit_row, symObjAddr: 0x2628, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x86, offset: 0x86, size: 0x8, addend: 0x0, symName: _GetMoveBot1.last_hit_col, symObjAddr: 0x262C, symBinAddr: 0x100008004, symSize: 0x0 }
+  - { offsetInCU: 0x12A, offset: 0x12A, size: 0x8, addend: 0x0, symName: _GetMoveBot2, symObjAddr: 0x1C10, symBinAddr: 0x100003550, symSize: 0x4D0 }
+  - { offsetInCU: 0x14D, offset: 0x14D, size: 0x8, addend: 0x0, symName: _GetMoveBot2.last_hit_row, symObjAddr: 0x2630, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offsetInCU: 0x163, offset: 0x163, size: 0x8, addend: 0x0, symName: _GetMoveBot2.last_hit_col, symObjAddr: 0x2634, symBinAddr: 0x10000800C, symSize: 0x0 }
+  - { offsetInCU: 0x26A, offset: 0x26A, size: 0x8, addend: 0x0, symName: _PrintArray, symObjAddr: 0x0, symBinAddr: 0x100001940, symSize: 0x90 }
+  - { offsetInCU: 0x2C6, offset: 0x2C6, size: 0x8, addend: 0x0, symName: _InitialiseMap, symObjAddr: 0x90, symBinAddr: 0x1000019D0, symSize: 0xE0 }
+  - { offsetInCU: 0x35A, offset: 0x35A, size: 0x8, addend: 0x0, symName: _AddRandomShip, symObjAddr: 0x170, symBinAddr: 0x100001AB0, symSize: 0x110 }
+  - { offsetInCU: 0x3EE, offset: 0x3EE, size: 0x8, addend: 0x0, symName: _CountValues, symObjAddr: 0x280, symBinAddr: 0x100001BC0, symSize: 0x90 }
+  - { offsetInCU: 0x46A, offset: 0x46A, size: 0x8, addend: 0x0, symName: _TopLeftPosition, symObjAddr: 0x310, symBinAddr: 0x100001C50, symSize: 0x120 }
+  - { offsetInCU: 0x4F4, offset: 0x4F4, size: 0x8, addend: 0x0, symName: _IsShipValid, symObjAddr: 0x430, symBinAddr: 0x100001D70, symSize: 0x2F0 }
+  - { offsetInCU: 0x5D2, offset: 0x5D2, size: 0x8, addend: 0x0, symName: _InitialiseRandomMap, symObjAddr: 0x720, symBinAddr: 0x100002060, symSize: 0x120 }
+  - { offsetInCU: 0x690, offset: 0x690, size: 0x8, addend: 0x0, symName: _FireShot, symObjAddr: 0x840, symBinAddr: 0x100002180, symSize: 0x270 }
+  - { offsetInCU: 0x7BE, offset: 0x7BE, size: 0x8, addend: 0x0, symName: _CheckGameOver, symObjAddr: 0xAB0, symBinAddr: 0x1000023F0, symSize: 0xB0 }
+  - { offsetInCU: 0x82C, offset: 0x82C, size: 0x8, addend: 0x0, symName: _GetMoveHuman, symObjAddr: 0xB60, symBinAddr: 0x1000024A0, symSize: 0xE0 }
+  - { offsetInCU: 0x88E, offset: 0x88E, size: 0x8, addend: 0x0, symName: _GetDisplayMapString, symObjAddr: 0xC40, symBinAddr: 0x100002580, symSize: 0x630 }
+  - { offsetInCU: 0x92C, offset: 0x92C, size: 0x8, addend: 0x0, symName: _PlayOneGame, symObjAddr: 0x1270, symBinAddr: 0x100002BB0, symSize: 0x400 }
+  - { offsetInCU: 0x9F7, offset: 0x9F7, size: 0x8, addend: 0x0, symName: _PlayBattleships, symObjAddr: 0x20E0, symBinAddr: 0x100003A20, symSize: 0x150 }
+  - { offsetInCU: 0xA77, offset: 0xA77, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x2230, symBinAddr: 0x100003B70, symSize: 0xC6 }
+...
